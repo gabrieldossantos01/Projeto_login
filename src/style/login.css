@@ -5,3 +5,90 @@
     --branco: #EEEEEE;
     --bege_escuro: #60584b;
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--bege_escuro);
+}
+
+#img_log{
+    width: 200px;
+    border-radius: 10px;    
+
+    
+}
+
+main{
+    background-color: var(--branco);
+    width: 200px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.material-symbols-outlined{
+    color: var(--bege_escuro);
+    vertical-align: -8px;
+    transform: translateX(5px);
+
+}
+
+
+
+.log{
+    height: 33px;
+    border-radius: 5px;
+    margin-left: 5px;
+   background-color: #cac9c8;
+   place
+}
+
+input::placeholder{
+    color: ;
+    padding-left: 2px;
+   
+}
+
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 109, 109);
+    padding: 5px;
+    box-shadow: ;
+}
+
+p{
+  font-size: 0.8em;  
+  text-align: justify;
+  padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+#password , #gmail_pass{
+    background-color: #c6c1b9;
+    margin-top:8px ;
+    border-radius: 5px;
+}
+
+#enter{
+    padding: 5px;
+    margin-top: 5px;
+   
+}
