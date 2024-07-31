@@ -7,6 +7,7 @@
 }
 
 *{
+  
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -34,27 +35,30 @@ main{
     border-radius: 20px;
 }
 
+input{
+    box-shadow: none;
+}
+
 .material-symbols-outlined{
     color: var(--bege_escuro);
     vertical-align: -8px;
-    transform: translateX(5px);
+    transform: translateX(px);
+    
 
 }
 
 
 
 .log{
-    height: 33px;
+    width: 168px;
+    height: 31px;
     border-radius: 5px;
-    margin-left: 3.5px;
-   background-color: #cac9c8;
-   place
+    background-color: lightgray;
 }
 
-input::placeholder{
-    color: ;
-    padding-left: 2px;
-   
+
+#form , #password{
+    
 }
 
 
@@ -64,21 +68,22 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(109, 109, 109);
     padding: 5px;
-    box-shadow: ;
-}
+}  
+
 
 p{
   font-size: 0.8em;  
   text-align: justify;
-  padding: 8px;
+  padding: 5px;
+  font-weight: lighter;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color:#4a4233;
+    padding-top: 2px;
     
 }
-
 
 
 #password , #gmail_pass{
@@ -90,5 +95,23 @@ a{
 #enter{
     padding: 5px;
     margin-top: 5px;
+}
+
+#forgot{
+    font-size: .8em;
+    text-align: center;
+    border: 1px solid var(--bege_escuro);
+    border-radius: 5px;
+    padding-top: 6px;
+  
+}
    
+#forgot:hover{
+    background-color: #ccc8bf;
+    transition: .7s;
+}
+
+#mail{
+    font-size: 15px;
+    transform: translateY(-5px);
 }
