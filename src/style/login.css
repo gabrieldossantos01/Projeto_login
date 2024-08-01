@@ -18,7 +18,7 @@ body{
 }
 
 #img_log{
-    width: 200px;
+    width: 250px;
     border-radius: 10px;    
 
     
@@ -26,7 +26,7 @@ body{
 
 main{
     background-color: var(--branco);
-    width: 200px;
+    width: 250px;
     position: absolute;
     top:50%;
     left: 50%;
@@ -48,7 +48,7 @@ input{
 
 
 .log{
-    width: 168px;
+    width: 218px;
     height: 31px;
     border-radius: 5px;
     background-color: lightgray;
@@ -83,7 +83,7 @@ a{
 #password , #gmail_pass{
     margin-top: 8px;
     border-radius: 5px;
-    background-color: #999488;
+
 }
 
 #ienter{
@@ -92,7 +92,7 @@ a{
     padding: 4px;
     box-shadow: none;
     border-radius: 4px;
-    width: 200px;
+    width: 250px;
     background-color:#b0aa9c;
 }
 
