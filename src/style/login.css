@@ -18,7 +18,7 @@ body{
 }
 
 #img_log{
-    width: 250px;
+    width: 230px;
     border-radius: 10px;    
     height: 310px;
     
@@ -26,7 +26,7 @@ body{
 
 main{
     background-color: var(--branco);
-    width: 250px;
+    width: 230px;
     position: absolute;
     top:50%;
     left: 50%;
@@ -48,8 +48,8 @@ input{
 
 
 .log{
-    width: 218px;
-    height: 31px;
+    width: 198px;
+    height: 30px;
     border-radius: 5px;
     background-color: lightgray;
 }
@@ -92,7 +92,7 @@ a{
     padding: 4px;
     box-shadow: none;
     border-radius: 4px;
-    width: 250px;
+    width: 230px;
     background-color:#b0aa9c;
 }
 

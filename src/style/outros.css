@@ -6,6 +6,67 @@
 }
 
 @media screen and (min-width:768px)  {
-   
+   main{
+    width: 895px;
+    height: 325px;
+   }
+  
+   img{
+    margin-left: 675px;
+   }
+
+   h1{
+    transform: translateY(-320px);
+    text-align: none;
+    margin-right: 400px;
+    
+   }
+
+   p{
+    transform: translateY(-300px);
+    margin-left: 55px;
+   }
+
+   form{
+    transform: translateY(-260px);  
+   }
+
+   .material-symbols-outlined{
+    transform: translateY(-15px);
+    
+   }
+
+   #pessoa{
+    font-size:px;
+    
+   }
+
+   #key{
+    font-size: ;
+   }
+
+   .log{
+    width: 450px;
+    margin-bottom: 3px;  
+    
+    height: 40px;
+    transform: translateY(-20px);
+   }
+  
+ #ienter{
+    width: 454px;
+    margin-left: 28px;
+    height: 40px;
+    transform: translateY(-20px);
+}
+
+#forgot{
+    width: 442px;
+    padding: 5px;
+    padding-top: 10px;
+    margin-left: 27px;
+    transform: translateY(-15px);
+}
 
 }
+
