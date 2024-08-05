@@ -2,7 +2,7 @@
 
 
 :root{
-    --branco: #EEEEEE;
+   
     --bege_escuro: #60584b;
 }
 
@@ -17,22 +17,26 @@ body{
     background-color: var(--bege_escuro);
 }
 
-#img_log{
-    width: 230px;
-    border-radius: 10px;    
-    height: 310px;
-    
+#img{
+background-image: url(../imagens/pexels.jpg);
+height: 240px;
+
+background-size: cover;
+}
+
+#login{
+    padding: 0px;
 }
 
 main{
-    background-color: var(--branco);
-    width: 230px;
+    background-color: white;
+    overflow: hidden;
+    width: 250px;
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    padding: 15px;
-    border-radius: 20px;
+    transform: translateX(-50%) translateY(-50%);    border-radius: 20px;
+    padding: ;
 }
 
 input{
@@ -55,7 +59,9 @@ input{
 }
 
 
-
+#form{
+    padding: 10px;
+}
 
 h1{
     text-align: center;
@@ -109,7 +115,7 @@ a{
     border-radius: 5px;
     padding-top: 6px;
     font-weight: bold;
-    
+    margin-bottom: 2px;
 }
    
 #forgot:hover{
