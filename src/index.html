@@ -16,37 +16,39 @@
         <div id="img">
          
         </div>
-        <div id="formulario">
-            <h1>login</h1>
-            <p>Seja bem vindo(a) novamente. faça login para acessar sua conta. </p>
+        <div id="all_form">
+            <div id="formulario">
+                <h1>login</h1>
+                <p>Seja bem vindo(a) novamente. faça login para acessar sua conta. </p>
+            </div>
+            <form action="log.php" method="post" id="iform">
+                <div class="campo">
+                     <label for="ilogin">
+                        <span class="material-symbols-outlined" id="pessoa">
+                        person
+                        </span>
+                     </label>
+                    <input type="email" name="" id="ilogin" placeholder="seu email" required minlength="5" maxlength="15" class="log">
+            
+                </div>
+            
+                <div class="campo">
+            
+                    <label for="isenha">
+                    <span class="material-symbols-outlined" id="key">
+                        vpn_key
+                        </span>
+                    </label>
+                    <input type="password" name="isenha" id="isenha" required maxlength="12" minlength="5" placeholder="sua senha" class="log">
+                </div>
+                <input type="submit" value="Entrar" id="ienter" class="enter_duo">
+                <a href="#" class="enter_duo">Esqueci minha senha
+                    <span class="material-symbols-outlined" id="mail">
+                        mail
+                        </span>
+                </a>
+            </form>
         </div>
-        <form action="log.php" method="post">
-            <div class="campo">
-                 <label for="ilogin">
-                    <span class="material-symbols-outlined" id="pessoa">
-                    person
-                    </span>
-                 </label>
-                <input type="email" name="" id="ilogin" placeholder="seu email" required minlength="5" maxlength="15" class="log">
-                
-            </div>
-          
-            <div class="campo">
-                
-                <label for="isenha">
-                <span class="material-symbols-outlined" id="key">
-                    vpn_key
-                    </span>
-                </label>
-                <input type="password" name="isenha" id="isenha" required maxlength="12" minlength="5" placeholder="sua senha" class="log">
-            </div>
-            <input type="submit" value="Entrar" id="ienter" class="enter_duo">
-            <a href="#" class="enter_duo">Esqueci minha senha
-                <span class="material-symbols-outlined" id="mail">
-                    mail
-                    </span>
-            </a>
-        </form>
         </section>
     </main>
 </body>

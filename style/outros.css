@@ -33,40 +33,48 @@ grandes telas: +1200px */
         
     }
 
+    p{
+        font-size: .8em;
+    }
+
     #formulario{
         float: right;
-         width: 65%;
+       
     }
-    
+
+    #all_form{
+        display: flex;
+        flex-flow:column nowrap ;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2px;
+    }
+
     form{
-        margin-left: 250px;
+        margin-top: 10px;
     }
-    
-     h1 , p{
-        transform: translateY(25px);
-     }
+
+    .log{
+        width: 375px;
+        
+    }
 
     .campo{
-        margin-left: 48px;
-        transform: translateY(50px);
-    }
-    
-    .log{
-        width: 45vh;
-        display: inline-block;
-        margin: auto;
+        transform: translateX(-15px);
     }
 
     #ienter{
-        width: 50.8vh;
-     
+        width: 385px;
+   
     }
 
-    .enter_duo{
-      width: 49vh;
-      transform: translateY(55px) translateX(9px);
+    a{
+        width: 371px;
+       
     }
 
+  
+    
 }
 
 @media screen and (min-width: 992px) /* CONFIGURAÇÃO PC */ {
@@ -78,18 +86,24 @@ grandes telas: +1200px */
     main{}
 
     h1  {
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+
+    p{
+        font-size: .8em;
     }
 
     form{
         padding-top: 200px;
-        transform: translateX(30px) translateY(-20%);
+        transform: translateX(30px) translateY(-30%);
+
+        
     }
    
 
     #login{
         width: 950px;
-        height: 40%;
+        height: 45%;
     }     
 
     #img{
@@ -100,6 +114,7 @@ grandes telas: +1200px */
 
     .log{
         width: 48%;
+        height: 28px;
     }
 
     #formulario{
@@ -109,6 +124,7 @@ grandes telas: +1200px */
 
     #ienter{
         width: 49%;
+        height: 35px;
         padding: 5px;
         margin-bottom: 3px;
         transform: translateX(-20px);
@@ -116,6 +132,7 @@ grandes telas: +1200px */
   
     a{
           width: 48%;
+          height: 26px;
           margin-right: 72px;
           padding: 4px;
       }
