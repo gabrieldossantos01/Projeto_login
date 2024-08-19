@@ -37,6 +37,10 @@ grandes telas: +1200px */
         font-size: .8em;
     }
 
+    #pp{
+        background-image: linear-gradient(to bottom, #60584b, white);
+    }
+
     #formulario{
         float: right;
        
@@ -68,11 +72,22 @@ grandes telas: +1200px */
    
     }
 
-    a{
+    #ee{
         width: 371px;
        
     }
 
+    #lp{
+        color: gray;
+    }
+
+    #my{
+      background-color: none;
+    }
+
+    #my:hover{
+        color: rgb(52, 52, 52);
+    }
   
     
 }
@@ -83,7 +98,7 @@ grandes telas: +1200px */
         background-image: linear-gradient(to bottom, #60584b, white);
     }
 
-    main{}
+
 
     h1  {
         margin-top: 20px;
@@ -130,11 +145,21 @@ grandes telas: +1200px */
         transform: translateX(-20px);
       }
   
-    a{
+    #ee{
           width: 48%;
           height: 26px;
           margin-right: 72px;
           padding: 4px;
       }
+
+      #lp{
+        color: gray;
+    }
+
+      
+
+      #my:hover{
+        color: white;
+    }
     
 }

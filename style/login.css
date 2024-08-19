@@ -18,12 +18,13 @@ body , html{
     background-color: var(--bege_escuro);
     height: 100vh;
     width: 100vw;
+    scrollbar-width: none;
 }
 
 main{
     
-    height: 100vh;
-    width: 100vw;
+    height: 97vh;
+    width:100vw;
 }
 
 #login{
@@ -74,6 +75,10 @@ p{
 
 }
 
+.ip{
+   background-color: white
+}
+
 
 #pessoa , #key{
     color:var(--fg_hover);
@@ -117,7 +122,7 @@ input:focus-within{
    
 }
 
-a{
+#ee{
     text-decoration: none;
     color: var(--a);
     border: 1px solid #999488;
@@ -136,6 +141,27 @@ a:hover{
     color: white;
     background-color: #90897d;
     transition: .4s;
+}
+
+#my{
+    text-decoration: none;
+    color: gray;
+  
+    padding: 3px;
+    border-radius: 3px;
+    
+}
+
+#my:hover{
+    padding: 3px;
+    transition-duration: 1s;
+    color: black;
+    text-decoration: underline;
+}
+
+#lp{
+    font-weight: bold;
+    color: gray;
 }
 
 #mail{
