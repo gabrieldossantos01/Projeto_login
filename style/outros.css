@@ -15,7 +15,7 @@ grandes telas: +1200px */
     --fg_hover: #999488;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px)  /* CONFIGURAÇÃO PARA TABLET */{
+@media screen and (min-width: 768px) and (max-width: 992px)  and (orientation: landscape)  /* CONFIGURAÇÃO PARA TABLET */{
   
     body{
         background-image: linear-gradient(to bottom, #60584b, white);
@@ -77,7 +77,7 @@ grandes telas: +1200px */
     
 }
 
-@media screen and (min-width: 992px) /* CONFIGURAÇÃO PC */ {
+@media screen and (min-width: 992px) and (orientation: landscape) /* CONFIGURAÇÃO PC */ {
    
     body{
         background-image: linear-gradient(to bottom, #60584b, white);
